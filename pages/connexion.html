@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenue sur mon site</title>
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/connexion.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Titillium+Web&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+
+</head>
+
+<body>
+    <div id="container">
+        <nav class="navbar" role="navigation" aria-label="main navigation has-background-white"
+            style=" box-shadow: 0 0 5px rgba(0,0,0,.3);">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="https://bulma.io">
+                    <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+                </a>
+        
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+        
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="../index.html">
+                        Accueil
+                    </a>
+        
+                    <a class="navbar-item" href="./galerie.html">
+                        Catalogue
+                    </a>
+        
+                    <a class="navbar-item">
+                        Produits
+                    </a>
+                    <a class="navbar-item">
+                        Services
+                    </a>
+                    <a class="navbar-item">
+                        Blog
+                    </a>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            A propos de nous
+                        </a>
+        
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item">
+                                About
+                            </a>
+                            <a class="navbar-item">
+                                Jobs
+                            </a>
+                            <a class="navbar-item">
+                                Contact
+                            </a>
+                            <hr class="navbar-divider">
+                            <a class="navbar-item">
+                                Report an issue
+                            </a>
+                        </div>
+        
+                    </div>
+                    <a class="navbar-item">
+                        <input type="text" class="input" placeholder="Recherchez sur le site">
+                    </a>
+                </div>
+        
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <a class="button is-link" href="./inscription.html">
+                                Inscription
+                            </a>
+                            <a class="button is-light" href="./connexion.html">
+                                Connexion
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section class="main_section">
+            <div class="content form_content is-paddingless is-marginless">
+                
+                <form action="" class="signin_form">
+                    <div>
+                        <div class="content is-paddingless is-marginless mb-2">
+                            <h3 class="title is-3 is-paddingless is-marginless">Connexion</h3>
+                        </div>
+                        <div class="content is-paddingless is-marginless " style="opacity: .6;">
+                            Accedez à votre espace menbre !
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="content">
+            
+                        <div class="field">
+                            <p class="control has-icons-left has-icons-right">
+                                <label class="mb-3" for="email" style="opacity: .6;">Adresse Email *</label>
+                                <input class="input py-3 is-focused" id="email" type="email" placeholder="adresse email" required>
+            
+                            </p>
+                        </div>
+                        <div class="field">
+                            <p class="control has-icons-left has-icons-right">
+                                <label class="mb-3" for="email" style="opacity: .6;">Mot de passe *</label>
+                                <input class="input py-3" id="email" type="password" placeholder="mot de passe" required>
+                            </p>
+                        </div>
+
+                        <div class="field">
+                            <label class="checkbox">
+                                <input type="checkbox">
+                                Restez connectez
+                            </label>
+                        </div>
+                        <div class="field">
+                            <button class="button is-link  is-fullwidth py-4">Soumettre</button>
+                        </div>
+            
+                    </div>
+                </form>
+            </div>
+        </section>
+
+
+    </div>
+</body>
+
+</html>

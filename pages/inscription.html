@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenue sur mon site</title>
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/inscription.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Titillium+Web&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+
+</head>
+
+<body>
+    <div id="container">
+        <nav class="navbar px-6" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item branding mr-6" href="../index.html">
+                    <strong class="has-text-danger is-size-4 branding">SMARTBUSINESS</strong>
+                </a>
+
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+
+                    <a class="navbar-item" href="./service.html">
+                        <strong>NOS SERVICES</strong>
+                    </a>
+
+
+                    <a class="navbar-item" href="./blog.html">
+                        <strong>BLOG</strong>
+                    </a>
+
+                    <a class="navbar-item py-5" href="./about.html">
+                        <strong> A PROPOS DE NOUS</strong>
+                    </a>
+
+                </div>
+
+                <div class="navbar-end">
+                    <a class="navbar-item " href="#">
+                        <button class="button is-warning is-rounded">
+                            CRER UN COMPTE
+                        </button>
+                    </a> 
+                    <a href="#" class="navbar-item has-text-white is-size-5">
+                        <ion-icon name="logo-youtube"></ion-icon>
+                    </a>
+                    <a href="#" class="navbar-item has-text-white is-size-5">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                    <a href="#" class="navbar-item has-text-white is-size-5">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+
+                </div>
+            </div>
+        </nav>
+        <section class="main_section">
+            <div class="columns section_content">
+
+                <div class="column left_content is-4-desktop is-hidden-mobile ">
+                    <img src="../assets/files/images/97e496fb8ef7510b01d1a689e5de5e5b.jpg" class="side_left_image" style="width: 100%; object-fit: cover;">
+                </div>
+
+                <div class="column is-8-desktop is-full-mobile right_section_content ">
+                    
+                    <div class="content right is-paddingless is-marginless">
+                        <div class="content is-paddingless is-marginless mb-2">
+                            <h3 class="title is-3 is-paddingless is-marginless">Inscrivez vous</h3>
+                        </div>
+                        <div class="content is-paddingless is-marginless mb-6" style="opacity: .6;">
+                            C'est très simple et surtout rapide !
+                        </div>
+                        
+                       <form action="" class="signin_form">
+                            <div class="content">
+                                <div class="field">
+                                    <p class="control has-icons-left has-icons-right">
+                                        <label class="mb-3" for="nom_prenom" style="opacity: .6;">Nom et prénoms   *</label>
+                                        <input class="input py-3 has-background-light is-borderless is-shadowless" id="nom_prenom" type="text" placeholder="Exemple : Jhone Doe" required>
+
+                                    </p>
+                                   
+                                </div>
+                                <div class="field">
+                                    <p class="control has-icons-left has-icons-right">
+                                        <label class="mb-3" for="email" style="opacity: .6;">Adresse Email  *</label>
+                                        <input class="input py-3 has-background-light is-borderless is-shadowless" id="email" type="email" placeholder="Exemple : jhonedoe@gmail.com" required>
+                                
+                                    </p>
+                                </div>
+                                <div class="field">
+                                    <p class="control has-icons-left has-icons-right">
+                                        <label class="mb-3" for="phone" style="opacity: .6;">Contact  *</label>
+                                        <input class="input py-3 has-background-light is-borderless is-shadowless" id="phone" type="tel" placeholder="(Indicatif) - xx xx xx xx xx" required>
+                                    
+                                    </p>
+                                </div>
+                                <div class="field">
+                                    <p class="control has-icons-left has-icons-right">
+                                        <label class="mb-3" for="email" style="opacity: .6;">Mot de passe  *</label>
+                                        <input class="input py-3 has-background-light is-borderless is-shadowless" id="email" type="password" placeholder="************" required>
+                                    </p>
+                                </div>
+                                <div class="field">
+                                    <label class="checkbox">
+                                        <input type="checkbox">
+                                        J'accepte<a href="#">termes et condition d'utilisation</a>
+                                    </label>
+                                </div>
+                                
+                                <div class="field">
+                                    <button class="button is-link  is-fullwidth py-5"  >Envoyer</button>
+                                </div>
+                                
+                            </div>
+                       </form>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+      
+
+    </div>
+</body>
+
+</html>

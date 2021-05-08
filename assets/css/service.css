@@ -1,0 +1,112 @@
+body , html , * {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+
+section.galerie_content {
+    width: 90%;
+    margin: 80px auto;
+}
+
+strong.branding {
+    font-family: 'Dancing Script', cursive;
+}
+
+header.galerie_header {
+    height: 270px;
+    width: 100%;
+    display: flex;
+    opacity: .3;
+    align-items: center;
+    background-image: url('../files/images/header_galerie.svg');
+    background-position-x: initial, initial;
+    background-position-y: initial, initial;
+    background-size: initial, initial;
+    background-repeat: initial, initial;
+    background-attachment: initial, initial;
+    background-origin: initial, initial;
+    background-clip: initial, initial;
+    background-color: initial;
+}
+
+div.header_galerie_content {
+    width: 80%;
+    opacity: 1 !important;
+    margin: auto;
+    max-width: 1370px;
+}
+
+div.galerie_menu {
+    max-width: 390px !important;
+}
+
+
+p.menu-label > strong {
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0;
+    font-weight: 700;
+    color: #959597;
+    white-space: nowrap;
+    text-transform: capitalize !important;
+}
+
+ul.menu-list {
+    border-bottom: 1px solid rgba(0,0,0,.07);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(0, 0, 0, 0.07);
+}
+
+input[type=checkbox] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+}
+
+
+label.checkbox {
+    display: flex;
+    align-items: flex-start;
+    color: #505050;
+}
+
+
+label.checkbox > div {
+    align-items: center;
+    border: 2px solid #e0e0e1;
+    border-radius: 6px;
+    display: flex;
+    flex-shrink: 0;
+    height: 26px;
+    justify-content: center;
+    margin-right: 10px;
+    width: 26px;
+}
+
+label.checkbox > strong  {
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 700;
+    letter-spacing: 0;
+    top: 5px;
+   
+}
+
+
+
+input[type=checkbox] {
+    align-items: center;
+    border: 2px solid #e0e0e1;
+    border-radius: 6px;
+    display: flex;
+    flex-shrink: 0;
+    height: 26px;
+    justify-content: center;
+    margin-right: 10px;
+    width: 26px;
+}

@@ -1,0 +1,16 @@
+header#about {
+    background: linear-gradient(60deg, #2c2c54  60%, #6c5ce7);
+    width: 100%;
+    height: 80vh;
+}
+
+header#about > div.content {
+    width: 55%;
+    margin:auto;
+}
+
+header#about > div.contact {
+    box-shadow: 0 0 40px rgba(0,0,0,.3);
+    z-index: 2;
+    border-radius: 4px;
+}

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenue sur mon site</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Titillium+Web&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap" rel="stylesheet">
+
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.7/plyr.css" />
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/about.css">
+</head>
+
+<body>
+    <div id="container">
+        <nav class="navbar px-6" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item branding mr-6" href="../index.html">
+                    <strong class="has-text-danger is-size-4 branding">SMARTBUSINESS</strong>
+                </a>
+
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+
+                    <a class="navbar-item" href="./service.html">
+                        <strong>NOS SERVICES</strong>
+                    </a>
+
+
+                    <a class="navbar-item" href="./blog.html">
+                        <strong>BLOG</strong>
+                    </a>
+
+                    <a class="navbar-item py-5" href="#">
+                        <strong> A PROPOS DE NOUS</strong>
+                    </a>
+
+                </div>
+
+                <div class="navbar-end">
+                    <a class="navbar-item " href="./inscription.html">
+                        <button class="button is-warning is-rounded">
+                            CRER UN COMPTE
+                        </button>
+                    </a>
+                    <a href="#" class="navbar-item has-text-white is-size-5">
+                        <ion-icon name="logo-youtube"></ion-icon>
+                    </a>
+                    <a href="#" class="navbar-item has-text-white is-size-5">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                    <a href="#" class="navbar-item has-text-white is-size-5">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+
+                </div>
+            </div>
+        </nav>
+
+        <!-- bannière de présentation de l'entreprise -->
+        <header id="about">
+
+            <div class="content">
+                <br><br>
+                <video id="player1" playsinline controls data-poster="/path/to/poster.jpg">
+                    <source src="../assets/How to Apply Texture in Affinity Designer and Affinity Photo.mp4"
+                        type="video/mp4" />
+                </video>
+            </div>
+            <br><br><br>
+            <div class="content contact has-background-white">
+                <div class="columns">
+                    <div class="column form_contact px-6 py-6 is-7-desktop is-full-mobile">
+                        <div>
+                            <h5 class="title is-4">CONTACTEZ NOUS</h5>
+                        </div>
+                        <form action="" method="post">
+                            <div class="field">
+                            
+                                <div class="control">
+                                    <input class="input py-5 " type="text" placeholder="Entrez votre noms et prénoms">
+                                </div>
+                            </div>
+            
+                            <div class="field">
+                                <label class="label">Votre adresse email</label>
+                                <div class="control">
+                                    <input class="input py-5 " type="email" placeholder="Votre adresse email">
+                                </div>
+                               
+                            </div>
+            
+                            <div class="field">
+                                <label class="label">A quel sujet écrivez vous ?</label>
+                                <div class="control">
+                                    <div class="select ">
+                                        <select class="">
+                                            <option>Prise de renseignements</option>
+                                            <option>Demande de devis</option>
+                                            <option>Plainte et/ou Réclamation</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+            
+                            <div class="field">
+                                <label class="label">Entrez votre message</label>
+                                <div class="control">
+                                    <textarea class="textarea" placeholder="Saisissez votre message"></textarea>
+                                </div>
+                            </div>
+                            <div class="field is-grouped">
+                                <div class="control">
+                                    <button class="button is-link">Envoyez le message</button>
+                                </div>
+                                <div class="control">
+                                    <button class="button">Annulez</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- autres infos de contact -->
+                    <div class="column other_contact has-background-danger has-text-white px-6 py-6 is-5-desktop is-full-mobile">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam veniam natus, nobis sapiente doloribus labore aliquam nam reprehenderit iste quam commodi mollitia rem ratione cumque exercitationem ea magni ad ipsa?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt debitis fugiat exercitationem! Enim delectus nemo corporis expedita corrupti sed! Odio iste maiores ratione magni repellat praesentium iusto labore nulla accusamus?
+                    </div>
+                </div>
+
+            </div>
+          
+            <br><br><br><br>
+        </header>
+        
+        
+    </div>
+    
+    <script src="https://cdn.plyr.io/3.6.7/plyr.polyfilled.js"></script>
+    <script>
+        const player1 = new Plyr('#player1');
+    </script>
+</body>
+
+</html>

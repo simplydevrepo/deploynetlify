@@ -1,0 +1,28 @@
+body , html , * {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+div.left_content , div.columns {
+    height: 105vh !important;
+}
+
+
+img.side_left_image , figure.side_left_image {
+    height: inherit !important;
+    width: 100% !important;
+}
+
+
+div.column.right_section_content {
+    margin: 90px auto !important;
+    max-width: 400px;
+}
+
+div.field input {
+    
+    padding: 25px 10px !important;
+}
+
+div.field input.is-focused {
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
